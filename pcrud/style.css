@@ -1,0 +1,25 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box  input {
+  border: 1.5px solid blue;
+}
+.form-control:focus {
+    border: 1.5px solid rgb(0, 0, 110);
+    outline: none;
+    box-shadow: 0 0 0 .1rem rgb(77 78 79 / 25%);
+  }
+  .pre{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .pre > img{
+    height: 100%;
+    width: 100%;
+  }
